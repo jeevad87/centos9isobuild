@@ -11,17 +11,18 @@ which xorriso
 ls /usr/share/syslinux/isohdpfx.bin
 ```
 # Install script dependency packages if above are missing 
+```bash
 > dnf-plugins-core  # download the rpms
 > createrepo_c      # creating repo with downloading packages
 > xorriso           # build iso
 > syslinux          # Without this → your ISO will NOT be hybrid bootable.
 > util-linux        # is a core Linux package that provides essential system utilities lke mounting iso other things
-
+```
 ```bash
 sudo dnf install -y wget dnf-plugins-core createrepo_c  xorriso syslinux util-linux
 ```
 
-``bash
+```bash
 git cone https://github.com/jeevad87/centos9isobuild.git
 cd centos9isobuild
 chmod +x createiso.sh
