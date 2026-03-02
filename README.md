@@ -1,8 +1,6 @@
 # Custom CentOS 9 ISO Builder
 
-##Author      : Jeeva D
-##Role        : Linux SME
-##Created On  : 28-Feb-2026
+>Author      : Jeeva D # Created On  : 28-Feb-2026
 
 ```bash
 git cone https://github.com/jeevad87/centos9isobuild.git
