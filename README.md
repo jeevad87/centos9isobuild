@@ -19,6 +19,7 @@
 ```
 # Install script dependency packages if above are missing 
 ```bash
+> wget              # download the iso
 > dnf-plugins-core  # download the rpms
 > createrepo_c      # creating repo with downloading packages
 > xorriso           # build iso
