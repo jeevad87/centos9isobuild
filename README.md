@@ -1,8 +1,9 @@
 # centos9isobuild
-`git cone https://github.com/jeevad87/centos9isobuild.git`
-`cd centos9isobuild`
-`chmod +x createiso.sh`
-
+```bash
+git cone https://github.com/jeevad87/centos9isobuild.git
+cd centos9isobuild
+chmod +x createiso.sh
+```
 #  Description :
 `   This script automates:`
 `      - CentOS Stream 9 ISO download`
