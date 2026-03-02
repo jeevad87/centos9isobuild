@@ -3,9 +3,8 @@
 # ==============================================================
 #  Custom CentOS 9 ISO Builder
 #
-#  Author      : Jeeva D
-#  Role        : Linux SME
-#  Created On  : 28-Feb-2026
+#  Author      : Jeeva D [Linux SME]
+#  Created On  : 02-Mar-2026
 #
 #  Description :
 #    This script automates:
