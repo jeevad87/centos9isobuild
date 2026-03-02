@@ -1,6 +1,6 @@
 # Custom CentOS 9 ISO Builder
 
-#! Author      : Jeeva D
+! Author      : Jeeva D
 > Role        : Linux SME
 > Created On  : 28-Feb-2026
 
