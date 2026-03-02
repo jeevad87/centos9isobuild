@@ -31,6 +31,7 @@ Custom ISO created successfully:
 ```
 if you not have any suource like boot iso file and rpm list refer help page
 ```bash
+./createiso.sh --help
 USAGE:
   createiso.sh [OPTIONS]
 
