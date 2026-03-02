@@ -2,7 +2,7 @@
 
 >Author      : Jeeva D # Created On  : 28-Feb-2026
 
-#Quick Verification 
+# Quick Verification 
 ```bash 
 which wget
 which dnf
@@ -21,7 +21,7 @@ ls /usr/share/syslinux/isohdpfx.bin
 ```bash
 sudo dnf install -y wget dnf-plugins-core createrepo_c  xorriso syslinux util-linux
 ```
-
+# Download and execute once the dependecy are completed
 ```bash
 git cone https://github.com/jeevad87/centos9isobuild.git
 cd centos9isobuild
