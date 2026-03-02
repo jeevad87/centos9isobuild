@@ -4,11 +4,18 @@
 
 # Quick Verification 
 ```bash 
-which wget
-which dnf
-which createrepo
-which xorriso
-ls /usr/share/syslinux/isohdpfx.bin
+[root@linux-infra ~]# which wget
+/usr/bin/wget
+[root@linux-infra ~]# which dnf
+/usr/bin/dnf
+[root@linux-infra ~]# which createrepo
+/usr/bin/createrepo
+[root@linux-infra ~]# which xorriso
+/usr/bin/xorriso
+[root@linux-infra ~]# ls /usr/share/syslinux/isohdpfx.bin
+/usr/share/syslinux/isohdpfx.bin
+[root@linux-infra ~]#
+
 ```
 # Install script dependency packages if above are missing 
 ```bash
@@ -19,18 +26,18 @@ ls /usr/share/syslinux/isohdpfx.bin
 > util-linux        # is a core Linux package that provides essential system utilities lke mounting iso other things
 ```
 ```bash
-sudo dnf install -y wget dnf-plugins-core createrepo_c  xorriso syslinux util-linux
+[root@linux-infra ~]# sudo dnf install -y wget dnf-plugins-core createrepo_c  xorriso syslinux util-linux
 ```
 # Download and execute once the dependecy are completed
 ```bash
-git cone https://github.com/jeevad87/centos9isobuild.git
-cd centos9isobuild
-chmod +x createiso.sh
+[root@linux-infra ~]# git cone https://github.com/jeevad87/centos9isobuild.git
+[root@linux-infra ~]# cd centos9isobuild
+[root@linux-infra ~]# chmod +x createiso.sh
 ```
 
 if you have the rpm list and iso already refe below example
 ```bash
-./createiso.sh --isopath=../CentOS-Stream-9-latest-x86_64-boot.iso --rpmpath=../geniso/Packages
+[root@linux-infra ~]# ./createiso.sh --isopath=../CentOS-Stream-9-latest-x86_64-boot.iso --rpmpath=../geniso/Packages
 
 ......omitted outputs.....
 
@@ -54,7 +61,7 @@ Custom ISO created successfully:
 ```
 if you not have any suource like boot iso file and rpm list refer help page
 ```bash
-./createiso.sh --help
+[root@linux-infra ~]# ./createiso.sh --help
 USAGE:
   createiso.sh [OPTIONS]
 
