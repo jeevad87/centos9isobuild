@@ -237,6 +237,7 @@ elif [[ "$ISO_MODE" == "download" ]]; then
     wget -O "$ISO_DL" "$CENTOS_ISO_URL"
     mount "$ISO_DL" "$ISO_CREATE_DIR/mountiso"
     COPYISO
+    rm -rf $ISO_DL
 fi
 
 ########################################
