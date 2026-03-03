@@ -109,3 +109,21 @@ Download Only:
       --isodownloadonly`
       --rpmdownloadonly`
 ```
+# File system created by iso
+```bash
+NAME                    MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+sda                       8:0    0   60G  0 disk
+├─sda1                    8:1    0    1G  0 part /boot
+├─sda2                    8:2    0 44.9G  0 part
+│ ├─VolGroup00-LogVol00 253:0    0   10G  0 lvm  /
+│ ├─VolGroup00-LogVol06 253:1    0    4G  0 lvm  [SWAP]
+│ ├─VolGroup00-LogVol05 253:2    0    5G  0 lvm  /home
+│ ├─VolGroup00-LogVol04 253:3    0    5G  0 lvm  /tmp
+│ ├─VolGroup00-LogVol03 253:4    0    2G  0 lvm  /var/log/audit
+│ ├─VolGroup00-LogVol02 253:5    0    2G  0 lvm  /var/log
+│ └─VolGroup00-LogVol01 253:6    0    2G  0 lvm  /var
+├─sda3                    8:3    0  600M  0 part /boot/efi
+├─sda4                    8:4    0    1K  0 part
+└─sda5                    8:5    0 13.5G  0 part
+sr0                      11:0    1 1024M  0 rom
+```
